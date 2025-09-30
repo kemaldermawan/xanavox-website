@@ -304,7 +304,10 @@ nav a.active::after {
 .promo-products {
     text-align: center;
     padding: 20px;
-    background: url("/images/black_bg.jpg") no-repeat center center/cover;
+    background-image: url("../images/black_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: #fff;
     margin-bottom: 30px;
 }
